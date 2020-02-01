@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test methods suite" verbose="1" parallel="false">
+    <test name="Calculator's functions test: RAD to DEG, DEG to RAD">
+        <classes>
+            <class name="com.lits.stadnytskyi.HWTestNG1.CalcRadToDeg"/>
+            <class name="com.lits.stadnytskyi.HWTestNG1.CalcDegToRad"/>
+            <class name="com.lits.stadnytskyi.HWTestNG1.CalcTestRevertOperation"/>
+            <class name="com.lits.stadnytskyi.HWTestNG1.CalcTestHistoryTest"/>
+        </classes>
+    </test>
+
+</suite>

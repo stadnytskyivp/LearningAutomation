@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Testing Add Operation Suite" verbose="1" parallel="false">
+    <test name="calcTests">
+        <classes>
+            <class name="com.lits.stadnytskyi.calculator.CalculatorParametrizedSubtraction" />
+            <class name="com.lits.stadnytskyi.calculator.CalculatorSubtractionOperationTest" />
+            <class name="com.lits.stadnytskyi.calculator.CalculatorAddOperationTest" />
+            <class name="com.lits.stadnytskyi.calculator.CalculatorParametrizedTest" />
+        </classes>
+    </test>
+
+</suite>
